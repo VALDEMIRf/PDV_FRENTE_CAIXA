@@ -80,6 +80,12 @@
       <DependentUpon>frmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mdlConexao.vb" />
     <Compile Include="mdlDiversos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -99,6 +105,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -117,6 +129,45 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="imagens\Add.png" />
+    <Content Include="imagens\add_azul.png" />
+    <Content Include="imagens\Ampeross-Qetto-2-Move.32.png" />
+    <Content Include="imagens\Boss.png" />
+    <Content Include="imagens\caixafechado.png" />
+    <Content Include="imagens\Cash.ico" />
+    <Content Include="imagens\categoriaProdutosdocumentation.32.png" />
+    <Content Include="imagens\clear.png" />
+    <Content Include="imagens\Close.png" />
+    <Content Include="imagens\Company-building.16.png" />
+    <Content Include="imagens\custom-reports-icon.png" />
+    <Content Include="imagens\Delete.png" />
+    <Content Include="imagens\Distributor-report-icon %282%29.png" />
+    <Content Include="imagens\Document.32.png" />
+    <Content Include="imagens\Edit.png" />
+    <Content Include="imagens\financeiro-Invoice.32.png" />
+    <Content Include="imagens\Inventory-maintenance.32.png" />
+    <Content Include="imagens\list.jpg" />
+    <Content Include="imagens\lock.ico" />
+    <Content Include="imagens\maintenance.png" />
+    <Content Include="imagens\Map-marker.16.png" />
+    <Content Include="imagens\new file.png" />
+    <Content Include="imagens\Newidols.ru-Shop-Cart.24.png" />
+    <Content Include="imagens\people.ico" />
+    <Content Include="imagens\People.png" />
+    <Content Include="imagens\produtos.jfif" />
+    <Content Include="imagens\Red star.png" />
+    <Content Include="imagens\report.png" />
+    <Content Include="imagens\reports.32.png" />
+    <Content Include="imagens\Shadow-Cart.24.png" />
+    <Content Include="imagens\Stock-market.48.png" />
+    <Content Include="imagens\Stock.32.png" />
+    <Content Include="imagens\tela de login.jpg" />
+    <Content Include="imagens\Unemployed.24.png" />
+    <Content Include="imagens\User group.png" />
+    <Content Include="imagens\WhatsApp.16.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
